@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etMovieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Title"/>
+
+    <EditText
+        android:id="@+id/etMovieDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Description"/>
+
+    <EditText
+        android:id="@+id/etMovieRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Rating"/>
+
+    <EditText
+        android:id="@+id/etMovieReleaseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Release Date"/>
+
+    <EditText
+        android:id="@+id/etMovieGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Genre"/>
+
+    <Button
+        android:id="@+id/btnInsertMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT MOVIE"
+        android:onClick="onClick"/>
+
+</LinearLayout>
